@@ -10,7 +10,7 @@ public class BlackState extends State {
         c.setState(new RedState());
     }
     public void handlePull(Context c) {
-        c.setState(new GreenState());
+        c.setState(new RedState());
     }
     @SuppressWarnings("exports")
     public Color getColor() {return (Color.black);}

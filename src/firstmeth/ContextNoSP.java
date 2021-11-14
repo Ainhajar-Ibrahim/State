@@ -18,8 +18,8 @@ public class ContextNoSP {
     public void pull() {
         if (state == Color.red) state = Color.green;
         else if (state == Color.green) state = Color.blue;
-        else if (state == Color.black) state = Color.green;
-        else if (state == Color.blue) state = Color.red;
+        else if (state == Color.black) state = Color.red;
+        else if (state == Color.blue) state = Color.black;
     }
 }
 

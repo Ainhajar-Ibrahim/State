@@ -14,7 +14,7 @@ public class RedState extends State {
         c.setState(new BlueState());
     }
     public void handlePull(Context c) {
-        c.setState(new BlackState());
+        c.setState(new GreenState());
     }
     @SuppressWarnings("exports")
     public Color getColor() {return (Color.red);}
